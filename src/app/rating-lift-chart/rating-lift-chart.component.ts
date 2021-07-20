@@ -47,7 +47,7 @@ export class RatingLiftChartComponent implements AfterViewInit {
           {
             label: '1 Previous Order',
             fill: this.fillStatus,
-            backgroundColor: 'blue',
+            backgroundColor: 'rgba(26, 10, 255, 0.3)',
             borderColor: 'blue',
             pointBorderColor: 'blue',
             data: []
@@ -55,7 +55,7 @@ export class RatingLiftChartComponent implements AfterViewInit {
           {
             label: '2 Previous Order',
             fill: this.fillStatus,
-            backgroundColor: 'red',
+            backgroundColor: 'rgba(255, 10, 10, 0.3)',
             borderColor: 'red',
             pointBorderColor: 'red',
             data: []
@@ -63,7 +63,7 @@ export class RatingLiftChartComponent implements AfterViewInit {
           {
             label: '3 Previous Order',
             fill: this.fillStatus,
-            backgroundColor: 'yellow',
+            backgroundColor: 'rgba(255, 242, 0, 0.3)',
             borderColor: 'yellow',
             pointBorderColor: 'yellow',
             data: []
@@ -71,7 +71,7 @@ export class RatingLiftChartComponent implements AfterViewInit {
           {
             label: '4+ Previous Order',
             fill: this.fillStatus,
-            backgroundColor: 'green',
+            backgroundColor: 'rgba(60, 255, 0, 0.3)',
             borderColor: 'green',
             pointBorderColor: 'green',
             data: []
