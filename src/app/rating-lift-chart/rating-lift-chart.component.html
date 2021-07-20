@@ -1,0 +1,10 @@
+<div>Input file with json data</div>
+<input #fileInput type="file" (change)="onFileChanged($event)">
+<div>
+  <div [ngStyle]="{'text-align': 'center'}">Lift by Score per Cohort</div>
+  <p-toggleButton onLabel="Filled" offLabel="Not filled"
+                  onIcon="pi pi-check" offIcon="pi pi-times" [(ngModel)]="fillStatus"
+                  (onChange)="onFillStatusChange()"></p-toggleButton>
+  <button pButton type="button" icon="pi pi-trash" style="margin-left: 10px" (click)="deleteChartInfo()"></button>
+  <canvas #lineCanvas style="height:10vh; width:20vw"></canvas>
+</div>
